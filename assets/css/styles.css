@@ -152,8 +152,7 @@ img {
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
-  background-color: #ffffff99;
-  backdrop-filter: blur(8px);
+  background-color: #ffffffe2;
   position: fixed;
   top: 0;
   left: 0;
@@ -289,7 +288,7 @@ img {
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: var(--h1-font-size);
   line-height: 140%;
   margin-bottom: var(--mb-1);
 }
@@ -765,7 +764,7 @@ img {
 }
 
 .footer__title {
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: var(--mb-1-5);
 }
 
