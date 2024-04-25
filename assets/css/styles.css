@@ -386,6 +386,20 @@ img {
   margin-right: auto;
 }
 
+.relation-with {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  max-width: 1000px;
+  overflow-x: auto;
+  overflow-y: hidden; 
+  padding: var(--mb-2) var(--mb-1);
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
+
 .relation-logo::-webkit-scrollbar {
   display: none;
   /* Menyembunyikan scrollbar pada browser WebKit */
@@ -820,7 +834,7 @@ img {
 }
 
 .footer__card {
-  width: 100px;
+  width: 200px;
 }
 
 .footer__copy {
